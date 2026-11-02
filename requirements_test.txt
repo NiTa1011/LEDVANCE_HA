@@ -1,0 +1,13 @@
+# Test dependencies for hass-ledvance
+
+# Integration runtime requirements (mirrors manifest.json)
+pycryptodome>=3.17
+requests>=2.31.0
+tinytuya>=1.17.4
+
+# Test tooling
+pytest>=8.0
+pytest-asyncio>=0.24
+pytest-cov>=5.0
+pytest-homeassistant-custom-component>=0.13.0
+pytest-mock>=3.14
